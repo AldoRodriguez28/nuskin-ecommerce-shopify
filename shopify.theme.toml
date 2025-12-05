@@ -1,0 +1,14 @@
+[environments.dawn]
+# URL de tu tienda en Shopify (ej. mi-tienda.myshopify.com)
+store = ""
+# ID del theme destino; usa "live" para el tema publicado o el ID numerico de una copia de Dawn
+theme_id = ""
+# Token privado del Admin API con permisos de Theme; se puede definir por variable de entorno SHOPIFY_ACCESS_TOKEN
+access_token = ""
+# Archivos a ignorar cuando sincronices con Shopify CLI
+ignore = [
+  "config.yml",
+  "node_modules/*",
+  "scripts/*",
+  "README.md"
+]
